@@ -1,0 +1,97 @@
+静态方法
+    与类无关，不能访问类里的任何属性和方法
+
+类方法
+    只能访问类变量，不能访问实例变量
+属性@property
+    把一个方法变成一个静态属性
+    flight.status
+    @$tatus.setter
+    flight.status = 3
+    @status.delter
+反射
+    getattr(obj,str,val)
+    setattr(obj,str,val)
+    delattr(obj,str)
+
+__new__
+class Foo(object):
+    def __call__()
+        print"call"
+Foo()()#执行call方法
+
+__metaclass__用来定义这个类一怎样的形式被创建
+
+try
+    ...
+except(ValueError,KeyError) as e
+else: #没有发生异常，就执行
+finally，无论如何都执行
+
+raise（触发异常！）
+
+exception Exception as e:放在异常处理最后面
+
+断言：
+几乎所有协议都基于socket，区别就是收发区别不一样
+socket
+    tcp/ip send,recv
+    udp
+
+服务端：
+    family address
+        AF.INET ipv4
+        AF.INET6
+        AF.UNIX.local
+     socket._SOCK_STREAM tcp/ip
+     socket.SOCK_DGRAM 数据报式 socket,for UDP
+
+    1.先声明一个socket实例
+    server = socket.socket(AF.INET,sock.SOCK_STREAM)
+    server.bind(locallhost,9999)
+    server.listen()
+    while True:
+    #每生成一个链接，服务器端就会为其生成一个实例
+    conn,addr = server.accept() #阻塞
+    while True:
+        print("new conn" ,addr)
+        conn.recv(1024) # 8192(8k) (官方建议，不超过10k) #recv默认是阻塞的
+        if not data:
+            break #客户端一断开，conn.recv收到的就都是空数据
+        print(data)
+        conn.send(data.upper())
+
+    client
+    实例化一个socket
+        client = socket.socket()
+        client.connect(serverip,9999)
+        client.send(data)
+        client.send(data)
+        client.recv()
+socket 粘包
+ftp server
+1.读取文件名
+2.检测文件是否存在
+3.打开文件
+4.检测文件大小
+5.发送文件大小给客户端
+6.等客户端确认
+7.开始边读边发数据
+8.发送MD5
+
+os.chdir 调换命令
+
+第一步：着装得体（不要国产、不要Jack&Johnson\selected）tiger的鞋子
+
+第二步：多去旅行，一年至少一个国家 多看书多看电影，50+部电影 学好英语真的很重要
+保持不甘心，保持正能量
+做事情一定要学会换位思考，要想此事会不会给别人造成不好的困恼
+积极地影响身边的人
+
+
+08,09,10.avi没看懂,涉及到协议以及Linux方面，不易听懂
+11
+
+
+
+

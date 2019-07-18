@@ -1,0 +1,109 @@
+GitHub上有项目实例
+志不坚者智不达
+趁早规划，不要净是想些虚的
+ssh 秘钥
+
+RSA-非对称秘钥验证
+
+公钥 public key
+
+私钥 private key
+
+10.0.0.31 -----> 10.0.0.41
+私钥                  公钥
+
+rwx     rwx     rwx
+属主     属组    others
+
+
+4.avi
+7.AVI
+8.avi
+9.avi
+
+
+所有的指令的操作都是CPU来负责运算的！
+  线程是操作系统能够进行运算调度的最小单位，它被包含在进程之中，
+是进程中的实际运作单位，一条线程指的是进程中一个单一顺序的控制流。
+一个进程可以并发多个线程，每条线程并行执行不同的任务。
+每一个程序的内存是独立的
+
+进程： QQ要以一个整体的形式暴露给操作系统管理，里面包含对各种资源的
+调用，内存的管理，网络接口的调用等。。。
+对各种资源管理的集合就可以称为进程
+
+线程：是操作系统最小的调度单位，是一串指令的集合
+
+进程 要操作CPU，必须要先创建一个线程，一个进程想要存在，至少要一个线程
+进程是资源的集合，线程是真正负责执行任务的指令集
+
+启动一个线程更快，
+启动一个进程更慢，
+例如：进程是房子，线程是人，拉人容易，建房子难
+进程与线程之间没有说哪个更快，没有可比性。
+
+线程共享内存空间，进程的内存是独立的
+
+线程共享内存空间，进程的内存是独立的
+
+同一个进程之间的线程是可以直接交流的！
+
+两个进程想要通信，必须通过一个中间代理来实现
+
+创建新线程很简单，创建新进程需要对其父进程进行一次克隆
+
+一个线程可以控制和操作同一个进程里的其他线程！但是进程只能操作子进程
+
+连续锁好几次的时候利用递归锁，就不会锁死
+locks = {
+    door1:key1,
+    door2:key2,
+}
+
+file1
+a:a线程打印135
+b：b线程打印246
+c
+d
+e
+f
+红绿灯：
+redLight = False
+
+while True:
+    if counter >30:
+        redLight = True
+     if counter>50:
+        redLight= False
+        counter = 0 #一定要记得清零处理
+Events
+
+An event is a simple synchronization object;
+
+the event represents an internal flag, and threads
+can wait for the flag to be set, or set or clear the flag themselves.
+
+event = threading.Event()
+
+# a client thread can wait for the flag to be set
+event.wait()
+# a server thread can set or reset it
+event.set()
+event.clear()
+If the flag is set, the wait method doesn’t do anything.
+标志位设定了，代表绿灯，直接通行
+If the flag is cleared, wait will block until it becomes set again.
+标志位被清空，代表红灯，wait等待变绿灯
+Any number of threads may wait for the same event.
+
+队列：
+>>> import queue
+>>> q = queue. Queue()
+>>> q.put("d2")
+>>> q.put("d3")
+>>> q.qsize()
+2
+>>> q.get()
+'d2'
+>>> q.get()
+'d3'

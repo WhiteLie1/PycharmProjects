@@ -1,0 +1,304 @@
+05.AVI 看完了
+
+rabbitmq
+1.平均分发
+2.perfetch = 1
+3.durable 队列持久化，deliver_mode =2
+4.1对多广播，exchange
+
+关系型数据库
+oracle
+MySQL
+SqlServer
+db2
+postgresql
+sqllite
+access
+数据库：数据库是一些关联表的集合
+
+主键：主键是唯一的。一个数据表中只能包含一个主键。你可以使用主键来查询数据。
+外键：外键用于关联两个表。 两张数据表的主键id关联在一块就叫外键，用于连接两张表的
+
+复合键：复合键（组合键）将多个列作为一个索引键，一般用于复合索引。
+索引：使用索引可快速访问数据库表中的特定信息。索引是对数据库表中一列或多列
+的值进行排序的一种结构。类似于书籍的目录。
+参照完整性: 参照的完整性要求关系中不允许引用不存在的实体。与实体完整性是
+关系模型必须满足的完整性约束条件，目的是保证数据的一致性。
+    把所有值转变成hash表，再来优化查询，索引就是将数据进行优化
+>>> hash('abcd')
+3534283537977309146
+登录MySQL的命令以及MySQL的一些基本操作：
+
+MySQL -uroot -p123456
+选择数据库
+use MySQL;
+    show tables;
+   desc 概括表结构
+   PRI 主键 primary key
+
+授予某些权限
+grant all on test.* to 'alex'@'%' identified by 'alex3714';
+
+
+
+mysql> grant all on alexlee.* to 'alex'@'%' identified by 'alex3714'
+    -> ;
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> use mysql;
+Database changed
+mysql> show grants for alex;
++-----------------------------------------------------------------------------------------------------+
+| Grants for alex@%                                                                                   |
++-----------------------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO 'alex'@'%' IDENTIFIED BY PASSWORD '*57A7D76E1618793E85CFDC33ECDB953EAB9F8FC4' |
+| GRANT ALL PRIVILEGES ON `alexlee`.* TO 'alex'@'%'                                                   |
++-----------------------------------------------------------------------------------------------------+
+2 rows in set (0.00 sec)
+
+以下列出了使用Mysql数据库过程中常用的命令：
+
+    USE 数据库名 :选择要操作的Mysql数据库，使用该命令后所有Mysql命令都只针对该数据库。
+
+    SHOW DATABASES: 列出 MySQL 数据库管理系统的数据库列表。
+
+    SHOW TABLES: #显示指定数据库的所有表，使用该命令前需要使用 use命令来选择要操作的数据库。
+
+    SHOW COLUMNS FROM 数据表: #显示数据表的属性，属性类型，主键信息 ，是否为 NULL，默认值等其他信息。
+
+    create database testdb charset "utf8"; #创建一个叫testdb的数据库，且让其支持中文
+
+    drop database testdb; #删除数据库
+
+    SHOW INDEX FROM 数据表:显示数据表的详细索引信息，包括PRIMARY KEY（主键）。
+
+mysql> show create database alexlee; #支持utf-8
+
++----------+------------------------------------------------------------------+
+| Database | Create Database                                                  |
++----------+------------------------------------------------------------------+
+| alexlee  | CREATE DATABASE `alexlee` /*!40100 DEFAULT CHARACTER SET utf8 */ |
++----------+------------------------------------------------------------------+
+1 row in set (0.01 sec)
+
+
+
+创建一个student表
+create table student(
+   stu_id INT NOT NULL AUTO_INCREMENT ,
+   name CHAR(32) NOT NULL,
+   age  INT NOT NULL,
+   register_date DATE,
+   PRIMARY KEY ( stu_id )
+);
+
+创建了一个学生表
+ create table student(
+     id int  auto_increment  ,
+    name char(32) not null,
+    age int not null,
+    register_date date not null,
+    primary key (id));
+
+mysql> desc student;
++---------------+----------+------+-----+---------+----------------+
+| Field         | Type     | Null | Key | Default | Extra          |
++---------------+----------+------+-----+---------+----------------+
+| id            | int(11)  | NO   | PRI | NULL    | auto_increment |
+| name          | char(32) | NO   |     | NULL    |                |
+| age           | int(11)  | NO   |     | NULL    |                |
+| register_date | date     | NO   |     | NULL    |                |
++---------------+----------+------+-----+---------+----------------+
+mysql> insert into student(name,age,register_date)values("ZhangYang",3,"2016-6-22");
+mysql> select *from student limit 2;
++----+-----------+-----+---------------+
+| id | name      | age | register_date |
++----+-----------+-----+---------------+
+|  2 | ZhangYang |   3 | 2016-06-22    |
+|  3 | ZhangYang |   4 | 2016-06-22    |
++----+-----------+-----+---------------+
+2 rows in set (0.00 sec)
+修改数据
+mysql> update student set name = "ChengRongHua",age=33 where id =4;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select name,count(*) from student group by name;
++--------------+----------+
+| name         | count(*) |
++--------------+----------+
+| ChengRongHua |        1 |
+| LiSi         |        4 |
+| LiYang       |        1 |
+| WangSen      |        2 |
+| ZhangYang    |        3 |
++--------------+----------+
+
+增加一个字段
+mysql> alter table student add sex enum("M","F");
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select *from student;
++----+--------------+-----+---------------+------+
+| id | name         | age | register_date | sex  |
++----+--------------+-----+---------------+------+
+|  2 | ZhangYang    |   3 | 2016-06-22    | NULL |
+|  3 | ZhangYang    |   4 | 2016-06-22    | NULL |
+|  4 | ChengRongHua |  33 | 2016-06-22    | NULL |
+|  5 | ZhangYang    |  99 | 2016-06-22    | NULL |
+|  6 | LiYang       |  99 | 2016-06-22    | NULL |
+|  7 | LiSi         |   3 | 2016-06-22    | NULL |
+|  8 | LiSi         |   3 | 2016-04-22    | NULL |
+|  9 | LiSi         |   3 | 2016-03-22    | NULL |
+| 10 | LiSi         |   3 | 2016-02-22    | NULL |
+| 11 | WangSen      |  44 | 2016-02-22    | NULL |
+| 12 | WangSen      | 100 | 2016-02-22    | NULL |
++----+--------------+-----+---------------+------+
+alter table student modify sex enum("F","M") not null;
+
+create table study_record(
+     id int auto_increment primary key,
+     day int not null,
+     status char (32) not null default Yes,
+    stu_id int not null;
+    key 'fk_student_key'('stu_id'),
+    constraint 'fk_student_key'foreign key('stu_id')reference 'student'('id'));
+
+
+CREATE TABLE `study_record` (
+  `id` int(11) NOT NULL,
+  `day` int NOT NULL,
+  `status` char(32) not NULL,
+  `stu_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_student_key` (`stu_id`),
+  CONSTRAINT `fk_student_key` FOREIGN KEY (`stu_id`) REFERENCES `student` (`id`)
+);
+
+mysql> desc study_record;
++--------+----------+------+-----+---------+-------+
+| Field  | Type     | Null | Key | Default | Extra |
++--------+----------+------+-----+---------+-------+
+| id     | int(11)  | NO   | PRI | NULL    |       |
+| day    | int(11)  | NO   |     | NULL    |       |
+| status | char(32) | NO   |     | NULL    |       |
+| stu_id | int(11)  | NO   | MUL | NULL    |       |
++--------+----------+------+-----+---------+-------+
+
+设置自增
+mysql> alter table study_record modify id int auto_increment;
+Query OK, 0 rows affected (0.06 sec)
+
+MySQL NULL 值处理　　
+
+我们已经知道MySQL使用 SQL SELECT 命令及 WHERE 子句来读取数据表中的数据,但是当提供的查询条件字段为 NULL 时，该命令可能就无法正常工作。
+为了处理这种情况，MySQL提供了三大运算符:
+IS NULL: 当列的值是NULL,此运算符返回true。
+IS NOT NULL: 当列的值不为NULL, 运算符返回true。
+<=>: 比较操作符（不同于=运算符），当比较的的两个值为NULL时返回true。
+关于 NULL 的条件比较运算是比较特殊的。你不能使用 = NULL 或 != NULL 在列中查找 NULL 值 。
+在MySQL中，NULL值与任何其它值的比较（即使是NULL）永远返回false，即 NULL = NULL 返回false 。
+MySQL中处理NULL使用IS NULL和IS NOT NULL运算符
+
+随便创建两张简单的表
+mysql> create table B(b int not null);
+Query OK, 0 rows affected (0.03 sec)
+
+交集
+mysql> select *from A inner join B on A.a=B.b;
++---+---+
+| a | b |
++---+---+
+| 3 | 3 |
+| 4 | 4 |
++---+---+
+
+mysql> select A.*,B.* from A,B where a.a=b.b;
++---+---+
+| a | b |
++---+---+
+| 3 | 3 |
+| 4 | 4 |
++---+---+
+
+求差集
+mysql> select *from A left join B on A.a=B.b;
++---+------+
+| a | b    |
++---+------+
+| 3 |    3 |
+| 4 |    4 |
+| 1 | NULL |
+| 2 | NULL |
++---+------+
+
+求并集
+mysql> select *from A full join B on A.a=B.b;
+ERROR 1054 (42S22): Unknown column 'A.a' in 'on clause'
+
+mysql> select *from A left join B on A.a=B.b union select *from A right join B on A.a=B.b;
++------+------+
+| a    | b    |
++------+------+
+|    3 |    3 |
+|    4 |    4 |
+|    1 | NULL |
+|    2 | NULL |
+| NULL |    5 |
+| NULL |    6 |
++------+------+
+
+6. 事务
+
+MySQL 事务主要用于处理操作量大，复杂度高的数据。比如说，在人员管理系统中，你删除一个人员，你即需要删除人员的基本资料，也要删除和该人员相关的信息，如信箱，文章等等，这样，这些数据库操作语句就构成一个事务！
+
+    在MySQL中只有使用了Innodb数据库引擎的数据库或表才支持事务
+    事务处理可以用来维护数据库的完整性，保证成批的SQL语句要么全部执行，要么全部不执行
+    事务用来管理insert,update,delete语句
+
+一般来说，事务是必须满足4个条件（ACID）： Atomicity（原子性）、Consistency（稳定性）、Isolation（隔离性）、Durability（可靠性）
+
+    1、事务的原子性：一组事务，要么成功；要么撤回。
+    2、稳定性 ： 有非法数据（外键约束之类），事务撤回。
+    3、隔离性：事务独立运行。一个事务处理后的结果，影响了其他事务，那么其他事务会撤回。事务的100%隔离，需要牺牲速度。
+    4、可靠性：软、硬件崩溃后，InnoDB数据表驱动会利用日志文件重构修改。可靠性和高速度不可兼得， innodb_flush_log_at_trx_commit选项 决定什么时候吧事务保存到日志里。
+
+begin 开始事务
+mysql> rollback; 事务回滚操作，事务结束
+
+索引分单列索引和组合索引。单列索引，即一个索引只包含单个列，一个表可以有多个单列索引，但这不是组合索引。组合索引，即一个索包含多个列。
+
+创建索引时，你需要确保该索引是应用在 SQL 查询语句的条件(一般作为 WHERE 子句的条件)。
+
+实际上，索引也是一张表，该表保存了主键与索引字段，并指向实体表的记录。
+查看索引
+mysql> show index from student;
++---------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table   | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++---------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| student |          0 | PRIMARY  |            1 | id          | A         |          11 |     NULL | NULL   |      | BTREE      |         |               |
++---------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+1 row in set (0.02 sec)
+一个表的主键自动就是索引
+自己设置一个索引
+mysql> create index _name on student(name(32));
+
+orm英文全称object relational mapping,就是对象映射关系程序，简单来说我们类似python这种面向对象的程序来说一切皆对象，
+但是我们使用的数据库却都是关系型的，为了保证一致的使用习惯，
+通过orm将编程语言的对象模型和数据库的关系模型建立映射关系，
+这样我们在使用编程语言对数据库进行操作的时候可以直接使用编程语言的对象
+模型进行操作就可以了，而不用直接使用sql语言。
+
+orm的优点：
+
+    隐藏了数据访问细节，“封闭”的通用数据库交互，ORM的核心。
+    他使得我们的通用数据库交互变得简单易行，并且完全不用考虑该死的SQL语句
+    。快速开发，由此而来。
+    ORM使我们构造固化数据结构变得简单易行。
+
+缺点：
+
+    无可避免的，自动化意味着映射和关联管理，代价是牺牲性能（早期，这是所有不喜欢ORM人的共同点）。现在的各种ORM框架都在尝试使用各种方法来减轻这块（LazyLoad，Cache），效果还是很显著的。
+
+11.avi

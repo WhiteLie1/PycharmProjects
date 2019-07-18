@@ -1,0 +1,17 @@
+epoll linux libevent.so
+
+gevent libevent.so
+
+selectors
+《亡命之徒》 《西部世界》
+
+RabbitMQ 消息队列
+    PY QUEUE
+        threading queue
+        进程queue 父进程与子进程进行交互，或者同属于同一父进程下的多个子
+        进程进行交互
+      erlang开发的RabitMQ
+Redis
+Mysql
+
+线程和进程queue只能python自己用
