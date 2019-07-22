@@ -1,0 +1,11 @@
+1.input() 方法，可以让用户从电脑出入字符串，并存放到一个变量里去
+>>> name = input()
+chenxini
+>>> name
+'chenxini'
+2.把输入的任意字符串作为自己的名字，存入到 name 变量中去
+>>> name = input()
+chenxin
+>>> print('hello',name)
+hello chenxin
+3.输出 1024*768=xxxx
