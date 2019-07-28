@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc9b7541-2c10-4310-9d88-49583e86c54b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/America_python/TestCode/PictureTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/America_python/廖雪峰python/高级特性/Message" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/America_python/廖雪峰python/高级特性/高级特性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/America_python/廖雪峰python/第二章列表和元组/message" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/America_python/廖雪峰python/函数/Message" beforeDir="false" afterPath="$PROJECT_DIR$/America_python/廖雪峰python/函数/Message" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/America_python/廖雪峰python/函数/函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/America_python/廖雪峰python/函数/函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/America_python/TestCode/PictureTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/America_python/TestCode/PictureTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message" beforeDir="false" afterPath="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py" beforeDir="false" afterPath="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/America_python/廖雪峰python/高级特性/Message" beforeDir="false" afterPath="$PROJECT_DIR$/America_python/廖雪峰python/高级特性/Message" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,76 +16,76 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PycharmProjects$metaclass.coverage" NAME="metaclass Coverage Results" MODIFIED="1552135042004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$hm_04_.coverage" NAME="hm_04_绘制图像 Coverage Results" MODIFIED="1563632980495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$getitem.coverage" NAME="getitem Coverage Results" MODIFIED="1552132855153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$sock_server_client.coverage" NAME="sock_server_client Coverage Results" MODIFIED="1552721854759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$shelve.coverage" NAME="shelve模块 Coverage Results" MODIFIED="1551509616695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$decorator_.coverage" NAME="decorator_函数既变量 Coverage Results" MODIFIED="1550844169513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day4" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1551361858331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5/module_test" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1552820382837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$selectors.coverage" NAME="selectors模块 Coverage Results" MODIFIED="1554037137482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$p_test.coverage" NAME="p_test Coverage Results" MODIFIED="1551359573796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5/package_test" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$xx.coverage" NAME="xx Coverage Results" MODIFIED="1553945965471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1554286112705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day11" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$threading_ex3.coverage" NAME="threading_ex3 Coverage Results" MODIFIED="1553136878769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$dog.coverage" NAME="dog Coverage Results" MODIFIED="1552036745050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day6" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$socket_server.coverage" NAME="socket_server基本 Coverage Results" MODIFIED="1552740137218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$dfhs.coverage" NAME="dfhs Coverage Results" MODIFIED="1562678957815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day3" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$json.coverage" NAME="json反序列化 Coverage Results" MODIFIED="1551271943161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day4" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$gevent_socket.coverage" NAME="gevent_socket Coverage Results" MODIFIED="1554014953442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$module_alex.coverage" NAME="module_alex Coverage Results" MODIFIED="1551354145658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$hello__1_.coverage" NAME="hello (1) Coverage Results" MODIFIED="1548040778664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$xml.coverage" NAME="xml创建 Coverage Results" MODIFIED="1551775018655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$sock_server_ssh.coverage" NAME="sock_server_ssh Coverage Results" MODIFIED="1552723155537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$shutil.coverage" NAME="shutil模块 Coverage Results" MODIFIED="1551492893003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$test.coverage" NAME="test Coverage Results" MODIFIED="1560688524014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$lock.coverage" NAME="lock进程锁 Coverage Results" MODIFIED="1553943990701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$day3_25.coverage" NAME="day3_25递归 Coverage Results" MODIFIED="1550819340532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day3" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$t.coverage" NAME="t Coverage Results" MODIFIED="1551426067911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5/module_test" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$rlock.coverage" NAME="rlock Coverage Results" MODIFIED="1553610975112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$p_test__1_.coverage" NAME="p_test (1) Coverage Results" MODIFIED="1551492351268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$getid.coverage" NAME="get进程id Coverage Results" MODIFIED="1553848793430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$process_pool.coverage" NAME="process_pool Coverage Results" MODIFIED="1553945935975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$configparser.coverage" NAME="configparser读 Coverage Results" MODIFIED="1551777409396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$hm_03_.coverage" NAME="hm_03_创建游戏窗口 Coverage Results" MODIFIED="1563631909453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$producer.coverage" NAME="producer Coverage Results" MODIFIED="1554195268829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day11" />
     <SUITE FILE_PATH="coverage/PycharmProjects$index.coverage" NAME="index Coverage Results" MODIFIED="1552130940101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$threading_ex3lock.coverage" NAME="threading_ex3lock Coverage Results" MODIFIED="1553602188627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$select_socket_server.coverage" NAME="select_socket_server Coverage Results" MODIFIED="1554038303312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1552804609824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8/ftp_client" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hm_06_update.coverage" NAME="hm_06_update方法 Coverage Results" MODIFIED="1564046371866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
     <SUITE FILE_PATH="coverage/PycharmProjects$Father.coverage" NAME="Father Coverage Results" MODIFIED="1560685067280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1551492067498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5/random_test" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$sock_server_ssh__1_.coverage" NAME="sock_server_ssh (1) Coverage Results" MODIFIED="1552722246216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$configparser.coverage" NAME="configparser读 Coverage Results" MODIFIED="1551777409396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$producer.coverage" NAME="producer Coverage Results" MODIFIED="1554195268829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day11" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1551361858331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5/module_test" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$greenlet.coverage" NAME="greenlet协程 Coverage Results" MODIFIED="1553953660285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$threading_ex3.coverage" NAME="threading_ex3 Coverage Results" MODIFIED="1553136878769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$orm_basic.coverage" NAME="orm_basic Coverage Results" MODIFIED="1555333053398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day12" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$dog.coverage" NAME="dog Coverage Results" MODIFIED="1552036745050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day6" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$xml.coverage" NAME="xml创建 Coverage Results" MODIFIED="1551775018655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$t.coverage" NAME="t Coverage Results" MODIFIED="1551426067911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5/module_test" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$p_test__1_.coverage" NAME="p_test (1) Coverage Results" MODIFIED="1551492351268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
     <SUITE FILE_PATH="coverage/PycharmProjects$mysql_conn.coverage" NAME="mysql_conn Coverage Results" MODIFIED="1555222488290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day12" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$module_alex.coverage" NAME="module_alex Coverage Results" MODIFIED="1551354145658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hm_03_.coverage" NAME="hm_03_创建游戏窗口 Coverage Results" MODIFIED="1563631909453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Urllib.coverage" NAME="Urllib Coverage Results" MODIFIED="1556197942537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/爬虫" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$.coverage" NAME="函数式编程 Coverage Results" MODIFIED="1564328122488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1554286112705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day11" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$aixin.coverage" NAME="aixin Coverage Results" MODIFIED="1560684905787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$day3_25.coverage" NAME="day3_25递归 Coverage Results" MODIFIED="1550819340532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day3" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hm_01_pygame.coverage" NAME="hm_01_pygame入门 Coverage Results" MODIFIED="1563628681438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$test.coverage" NAME="test Coverage Results" MODIFIED="1560688524014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$getid.coverage" NAME="get进程id Coverage Results" MODIFIED="1553848793430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$select_socket_server.coverage" NAME="select_socket_server Coverage Results" MODIFIED="1554038303312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$socket_server.coverage" NAME="socket_server基本 Coverage Results" MODIFIED="1552740137218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$socke_server_client.coverage" NAME="socke_server_client Coverage Results" MODIFIED="1552740139525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8" />
     <SUITE FILE_PATH="coverage/PycharmProjects$cs.coverage" NAME="cs角色 Coverage Results" MODIFIED="1552116138771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day6" />
     <SUITE FILE_PATH="coverage/PycharmProjects$IO.coverage" NAME="自动IO切换 Coverage Results" MODIFIED="1554002129032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$managers.coverage" NAME="managers Coverage Results" MODIFIED="1553943764393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$.coverage" NAME="高级特性 Coverage Results" MODIFIED="1563959507247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/廖雪峰python/高级特性" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$selectors.coverage" NAME="selectors模块 Coverage Results" MODIFIED="1554037137482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1551492067498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5/random_test" />
     <SUITE FILE_PATH="coverage/PycharmProjects$hashlib.coverage" NAME="hashlib模块 Coverage Results" MODIFIED="1551786206949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$ssh_sft.coverage" NAME="ssh_sft Coverage Results" MODIFIED="1552820302346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1552804605984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8/ftp_server/core" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$aixin.coverage" NAME="aixin Coverage Results" MODIFIED="1560684905787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$hm_05_.coverage" NAME="hm_05_绘制英雄图像 Coverage Results" MODIFIED="1563634010346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1552804609824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8/ftp_client" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1554037141657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$hm_06_update.coverage" NAME="hm_06_update方法 Coverage Results" MODIFIED="1564046371866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$threading_ex1.coverage" NAME="threading_ex1 Coverage Results" MODIFIED="1553083493530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$Urllib.coverage" NAME="Urllib Coverage Results" MODIFIED="1556197942537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/爬虫" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$greenlet.coverage" NAME="greenlet协程 Coverage Results" MODIFIED="1553953660285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$atm.coverage" NAME="atm Coverage Results" MODIFIED="1551278034297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day4/ATM/bin" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$hm_01_pygame.coverage" NAME="hm_01_pygame入门 Coverage Results" MODIFIED="1563628681438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$hello.coverage" NAME="hello Coverage Results" MODIFIED="1548040519257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$yield.coverage" NAME="yield Coverage Results" MODIFIED="1553952631789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1552648786344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$hash.coverage" NAME="hash Coverage Results" MODIFIED="1552731680142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$socke_server_client.coverage" NAME="socke_server_client Coverage Results" MODIFIED="1552740139525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$queue.coverage" NAME="进程queue Coverage Results" MODIFIED="1553855430088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$mutib_conn_socket_client.coverage" NAME="mutib_conn_socket_client Coverage Results" MODIFIED="1554038329059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$threading_ex2.coverage" NAME="threading_ex2 Coverage Results" MODIFIED="1553003766826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$pipe.coverage" NAME="pipe Coverage Results" MODIFIED="1553937897691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$__new__.coverage" NAME="__new__ Coverage Results" MODIFIED="1552134076151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
     <SUITE FILE_PATH="coverage/PycharmProjects$PictureTest.coverage" NAME="PictureTest Coverage Results" MODIFIED="1564060856965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/TestCode" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$orm_basic.coverage" NAME="orm_basic Coverage Results" MODIFIED="1555333053398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day12" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$metaclass.coverage" NAME="metaclass Coverage Results" MODIFIED="1552135042004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hello.coverage" NAME="hello Coverage Results" MODIFIED="1548040519257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$decorator_.coverage" NAME="decorator_函数既变量 Coverage Results" MODIFIED="1550844169513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day4" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hello__1_.coverage" NAME="hello (1) Coverage Results" MODIFIED="1548040778664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$managers.coverage" NAME="managers Coverage Results" MODIFIED="1553943764393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$threading_ex1.coverage" NAME="threading_ex1 Coverage Results" MODIFIED="1553083493530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$json.coverage" NAME="json反序列化 Coverage Results" MODIFIED="1551271943161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day4" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1554037141657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$getitem.coverage" NAME="getitem Coverage Results" MODIFIED="1552132855153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$p_test.coverage" NAME="p_test Coverage Results" MODIFIED="1551359573796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5/package_test" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$rlock.coverage" NAME="rlock Coverage Results" MODIFIED="1553610975112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$lock.coverage" NAME="lock进程锁 Coverage Results" MODIFIED="1553943990701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1552648786344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$atm.coverage" NAME="atm Coverage Results" MODIFIED="1551278034297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day4/ATM/bin" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$xx.coverage" NAME="xx Coverage Results" MODIFIED="1553945965471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$shelve.coverage" NAME="shelve模块 Coverage Results" MODIFIED="1551509616695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$dfhs.coverage" NAME="dfhs Coverage Results" MODIFIED="1562678957815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day3" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$threading_ex3lock.coverage" NAME="threading_ex3lock Coverage Results" MODIFIED="1553602188627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$sock_server_ssh.coverage" NAME="sock_server_ssh Coverage Results" MODIFIED="1552723155537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hm_04_.coverage" NAME="hm_04_绘制图像 Coverage Results" MODIFIED="1563632980495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$__new__.coverage" NAME="__new__ Coverage Results" MODIFIED="1552134076151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$sock_server_ssh__1_.coverage" NAME="sock_server_ssh (1) Coverage Results" MODIFIED="1552722246216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1552804605984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8/ftp_server/core" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1552820382837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$shutil.coverage" NAME="shutil模块 Coverage Results" MODIFIED="1551492893003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$gevent_socket.coverage" NAME="gevent_socket Coverage Results" MODIFIED="1554014953442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$sock_server_client.coverage" NAME="sock_server_client Coverage Results" MODIFIED="1552721854759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$threading_ex2.coverage" NAME="threading_ex2 Coverage Results" MODIFIED="1553003766826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$process_pool.coverage" NAME="process_pool Coverage Results" MODIFIED="1553945935975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$pipe.coverage" NAME="pipe Coverage Results" MODIFIED="1553937897691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hash.coverage" NAME="hash Coverage Results" MODIFIED="1552731680142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$ssh_sft.coverage" NAME="ssh_sft Coverage Results" MODIFIED="1552820302346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$hm_05_.coverage" NAME="hm_05_绘制英雄图像 Coverage Results" MODIFIED="1563634010346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$queue.coverage" NAME="进程queue Coverage Results" MODIFIED="1553855430088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$yield.coverage" NAME="yield Coverage Results" MODIFIED="1553952631789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$mutib_conn_socket_client.coverage" NAME="mutib_conn_socket_client Coverage Results" MODIFIED="1554038329059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -107,10 +104,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/America_python/TestCode/PictureTest.py">
+        <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+            <state relative-caret-position="323">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/alex_python/day10/managers.py" />
         <option value="$PROJECT_DIR$/alex_python/day10/lock进程锁.py" />
         <option value="$PROJECT_DIR$/alex_python/day10/xx.py" />
         <option value="$PROJECT_DIR$/alex_python/day10/process_pool.py" />
@@ -185,18 +193,19 @@
         <option value="$PROJECT_DIR$/America_python/廖雪峰python/函数/Message" />
         <option value="$PROJECT_DIR$/America_python/廖雪峰python/函数/函数.py" />
         <option value="$PROJECT_DIR$/America_python/廖雪峰python/高级特性/高级特性.py" />
+        <option value="$PROJECT_DIR$/America_python/TestCode/PictureTest.py" />
+        <option value="$PROJECT_DIR$/America_python/廖雪峰python/第二章列表和元组/message" />
         <option value="$PROJECT_DIR$/America_python/廖雪峰python/高级特性/Message" />
         <option value="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py" />
         <option value="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message" />
-        <option value="$PROJECT_DIR$/America_python/TestCode/PictureTest.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
-    <option name="y" value="1" />
-    <option name="width" value="1830" />
-    <option name="height" value="1090" />
+    <option name="x" value="200" />
+    <option name="y" value="16" />
+    <option name="width" value="1360" />
+    <option name="height" value="1068" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -222,6 +231,19 @@
               <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
               <item name="America_python" type="462c0819:PsiDirectoryNode" />
               <item name="TestCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="America_python" type="462c0819:PsiDirectoryNode" />
+              <item name="廖雪峰python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="America_python" type="462c0819:PsiDirectoryNode" />
+              <item name="廖雪峰python" type="462c0819:PsiDirectoryNode" />
+              <item name="函数式编程" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PictureTest">
+  <component name="RunManager" selected="Python.函数式编程">
     <configuration name="输入输出" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,6 +308,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="函数式编程" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="PictureTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,28 +344,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/TestCode/PictureTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/廖雪峰python/函数" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/廖雪峰python/函数/函数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -638,6 +660,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/廖雪峰python/函数" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/廖雪峰python/函数/函数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hm_06_update方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -662,6 +706,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.函数式编程" />
         <item itemvalue="Python.PictureTest" />
         <item itemvalue="Python.hm_06_update方法" />
         <item itemvalue="Python.输入输出" />
@@ -740,11 +785,13 @@
       <workItem from="1563976521378" duration="4766000" />
       <workItem from="1564046141855" duration="651000" />
       <workItem from="1564060400644" duration="1841000" />
+      <workItem from="1564224143808" duration="4201000" />
+      <workItem from="1564302639183" duration="7686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="466231000" />
+    <option name="totallyTimeSpent" value="478118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -756,14 +803,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="1" width="1464" height="872" extended-state="0" />
+    <frame x="160" y="13" width="1088" height="854" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07467994" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.065048546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.37290502" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2932961" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29083094" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38826814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -772,8 +819,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.33236995" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49847096" weight="0.3198324" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.5115607" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49847096" visible="true" weight="0.43266475" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.5235457" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1191,84 +1238,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alex_python/day10/url.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3112#3118#0" expanded="true" />
-            <element signature="e#3124#3130#0" expanded="true" />
-            <element signature="e#3137#3143#0" expanded="true" />
-            <element signature="e#4355#4361#0" expanded="true" />
-            <element signature="e#5407#5413#0" expanded="true" />
-            <element signature="e#5956#5962#0" expanded="true" />
-            <element signature="e#5967#5973#0" expanded="true" />
-            <element signature="e#6460#6466#0" expanded="true" />
-            <element signature="e#7498#7504#0" expanded="true" />
-            <element signature="e#8543#8549#0" expanded="true" />
-            <element signature="e#8934#8938#0" expanded="true" />
-            <element signature="e#8947#8951#0" expanded="true" />
-            <element signature="e#9593#9599#0" expanded="true" />
-            <element signature="e#10579#10585#0" expanded="true" />
-            <element signature="e#11634#11640#0" expanded="true" />
-            <element signature="e#12690#12696#0" expanded="true" />
-            <element signature="e#13749#13755#0" expanded="true" />
-            <element signature="e#14250#14255#0" expanded="true" />
-            <element signature="e#14342#14346#0" expanded="true" />
-            <element signature="e#14346#14350#0" expanded="true" />
-            <element signature="e#14350#14354#0" expanded="true" />
-            <element signature="e#14388#14392#0" expanded="true" />
-            <element signature="e#14392#14396#0" expanded="true" />
-            <element signature="e#14396#14400#0" expanded="true" />
-            <element signature="e#14823#14829#0" expanded="true" />
-            <element signature="e#15864#15870#0" expanded="true" />
-            <element signature="e#16909#16915#0" expanded="true" />
-            <element signature="e#17482#17486#0" expanded="true" />
-            <element signature="e#17486#17490#0" expanded="true" />
-            <element signature="e#17490#17494#0" expanded="true" />
-            <element signature="e#17504#17510#0" expanded="true" />
-            <element signature="e#17514#17520#0" expanded="true" />
-            <element signature="e#17521#17527#0" expanded="true" />
-            <element signature="e#17534#17540#0" expanded="true" />
-            <element signature="e#17541#17547#0" expanded="true" />
-            <element signature="e#17551#17557#0" expanded="true" />
-            <element signature="e#17558#17564#0" expanded="true" />
-            <element signature="e#17568#17574#0" expanded="true" />
-            <element signature="e#17575#17581#0" expanded="true" />
-            <element signature="e#17584#17590#0" expanded="true" />
-            <element signature="e#17591#17597#0" expanded="true" />
-            <element signature="e#17600#17606#0" expanded="true" />
-            <element signature="e#18023#18029#0" expanded="true" />
-            <element signature="e#19081#19087#0" expanded="true" />
-            <element signature="e#20125#20131#0" expanded="true" />
-            <element signature="e#21171#21177#0" expanded="true" />
-            <element signature="e#22213#22219#0" expanded="true" />
-            <element signature="e#23274#23280#0" expanded="true" />
-            <element signature="e#23669#23674#0" expanded="true" />
-            <element signature="e#24339#24345#0" expanded="true" />
-            <element signature="e#25383#25389#0" expanded="true" />
-            <element signature="e#26433#26439#0" expanded="true" />
-            <element signature="e#27481#27487#0" expanded="true" />
-            <element signature="e#28526#28532#0" expanded="true" />
-            <element signature="e#29570#29576#0" expanded="true" />
-            <element signature="e#30620#30626#0" expanded="true" />
-            <element signature="e#31664#31670#0" expanded="true" />
-            <element signature="e#32710#32716#0" expanded="true" />
-            <element signature="e#33754#33760#0" expanded="true" />
-            <element signature="e#34312#34316#0" expanded="true" />
-            <element signature="e#34320#34324#0" expanded="true" />
-            <element signature="e#34802#34808#0" expanded="true" />
-            <element signature="e#35848#35854#0" expanded="true" />
-            <element signature="e#36891#36897#0" expanded="true" />
-            <element signature="e#37364#37369#0" expanded="true" />
-            <element signature="e#37930#37936#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#38830#38836#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alex_python/day10/gevent_socket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1578,28 +1547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/高级特性/Message">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="95" column="34" lean-forward="true" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/高级特性/高级特性.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#142#683#1" />
-            <element signature="e#719#1199#1" />
-            <element signature="e#1200#1405#1" />
-            <element signature="e#1406#1616#1" />
-            <element signature="e#1617#1627#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/输入和输出/Message">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1607,20 +1554,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message">
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/PictureTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="61">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/第二章列表和元组/message">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/高级特性/高级特性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#142#683#1" />
+            <element signature="e#719#1199#1" />
+            <element signature="e#1200#1405#1" />
+            <element signature="e#1406#1616#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/高级特性/Message">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/America_python/TestCode/PictureTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        <state relative-caret-position="78">
+          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
