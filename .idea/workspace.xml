@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc9b7541-2c10-4310-9d88-49583e86c54b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/America_python/廖雪峰python/第二章列表和元组/message" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/America_python/TestCode/RGB_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/America_python/TestCode/白平衡.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/America_python/TestCode/白平衡2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/America_python/TestCode/白平衡3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/America_python/TestCode/白平衡4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/America_python/TestCode/PictureTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/America_python/TestCode/PictureTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message" beforeDir="false" afterPath="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py" beforeDir="false" afterPath="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/America_python/廖雪峰python/高级特性/Message" beforeDir="false" afterPath="$PROJECT_DIR$/America_python/廖雪峰python/高级特性/Message" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/America_python/TestCode/images/test.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +35,8 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$module_alex.coverage" NAME="module_alex Coverage Results" MODIFIED="1551354145658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5" />
     <SUITE FILE_PATH="coverage/PycharmProjects$hm_03_.coverage" NAME="hm_03_创建游戏窗口 Coverage Results" MODIFIED="1563631909453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
     <SUITE FILE_PATH="coverage/PycharmProjects$Urllib.coverage" NAME="Urllib Coverage Results" MODIFIED="1556197942537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/爬虫" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$.coverage" NAME="函数式编程 Coverage Results" MODIFIED="1564328122488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$.coverage" NAME="白平衡 Coverage Results" MODIFIED="1564407851088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/TestCode" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$2.coverage" NAME="白平衡2 Coverage Results" MODIFIED="1564407600028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/TestCode" />
     <SUITE FILE_PATH="coverage/PycharmProjects$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1554286112705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day11" />
     <SUITE FILE_PATH="coverage/PycharmProjects$aixin.coverage" NAME="aixin Coverage Results" MODIFIED="1560684905787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python" />
     <SUITE FILE_PATH="coverage/PycharmProjects$day3_25.coverage" NAME="day3_25递归 Coverage Results" MODIFIED="1550819340532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day3" />
@@ -56,6 +58,7 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$hello__1_.coverage" NAME="hello (1) Coverage Results" MODIFIED="1548040778664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python" />
     <SUITE FILE_PATH="coverage/PycharmProjects$managers.coverage" NAME="managers Coverage Results" MODIFIED="1553943764393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
     <SUITE FILE_PATH="coverage/PycharmProjects$threading_ex1.coverage" NAME="threading_ex1 Coverage Results" MODIFIED="1553083493530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$3.coverage" NAME="白平衡3 Coverage Results" MODIFIED="1564407649400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/TestCode" />
     <SUITE FILE_PATH="coverage/PycharmProjects$json.coverage" NAME="json反序列化 Coverage Results" MODIFIED="1551271943161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day4" />
     <SUITE FILE_PATH="coverage/PycharmProjects$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1554037141657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
     <SUITE FILE_PATH="coverage/PycharmProjects$getitem.coverage" NAME="getitem Coverage Results" MODIFIED="1552132855153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
@@ -80,12 +83,14 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$threading_ex2.coverage" NAME="threading_ex2 Coverage Results" MODIFIED="1553003766826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
     <SUITE FILE_PATH="coverage/PycharmProjects$process_pool.coverage" NAME="process_pool Coverage Results" MODIFIED="1553945935975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
     <SUITE FILE_PATH="coverage/PycharmProjects$pipe.coverage" NAME="pipe Coverage Results" MODIFIED="1553937897691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$RGB_test.coverage" NAME="RGB_test Coverage Results" MODIFIED="1564407518790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/TestCode" />
     <SUITE FILE_PATH="coverage/PycharmProjects$hash.coverage" NAME="hash Coverage Results" MODIFIED="1552731680142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day8" />
     <SUITE FILE_PATH="coverage/PycharmProjects$ssh_sft.coverage" NAME="ssh_sft Coverage Results" MODIFIED="1552820302346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
     <SUITE FILE_PATH="coverage/PycharmProjects$hm_05_.coverage" NAME="hm_05_绘制英雄图像 Coverage Results" MODIFIED="1563634010346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/飞机大战" />
     <SUITE FILE_PATH="coverage/PycharmProjects$queue.coverage" NAME="进程queue Coverage Results" MODIFIED="1553855430088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
     <SUITE FILE_PATH="coverage/PycharmProjects$yield.coverage" NAME="yield Coverage Results" MODIFIED="1553952631789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
     <SUITE FILE_PATH="coverage/PycharmProjects$mutib_conn_socket_client.coverage" NAME="mutib_conn_socket_client Coverage Results" MODIFIED="1554038329059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$4.coverage" NAME="白平衡4 Coverage Results" MODIFIED="1564407667218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/America_python/TestCode" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -102,29 +107,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -147,11 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/alex_python/day10/lock进程锁.py" />
-        <option value="$PROJECT_DIR$/alex_python/day10/xx.py" />
-        <option value="$PROJECT_DIR$/alex_python/day10/process_pool.py" />
-        <option value="$PROJECT_DIR$/alex_python/day10/进程池.py" />
-        <option value="$PROJECT_DIR$/alex_python/day10/yield.py" />
         <option value="$PROJECT_DIR$/alex_python/day10/协程.py" />
         <option value="$PROJECT_DIR$/alex_python/day10/greenlet协程.py" />
         <option value="$PROJECT_DIR$/alex_python/day10/自动IO切换.py" />
@@ -198,14 +176,19 @@
         <option value="$PROJECT_DIR$/America_python/廖雪峰python/高级特性/Message" />
         <option value="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py" />
         <option value="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message" />
+        <option value="$PROJECT_DIR$/America_python/TestCode/白平衡.py" />
+        <option value="$PROJECT_DIR$/America_python/TestCode/RGB_test.py" />
+        <option value="$PROJECT_DIR$/America_python/TestCode/白平衡2.py" />
+        <option value="$PROJECT_DIR$/America_python/TestCode/白平衡3.py" />
+        <option value="$PROJECT_DIR$/America_python/TestCode/白平衡4.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
-    <option name="y" value="16" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="292" />
+    <option name="y" value="-18" />
     <option name="width" value="1360" />
-    <option name="height" value="1068" />
+    <option name="height" value="1070" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,6 +220,13 @@
               <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
               <item name="America_python" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCode" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="America_python" type="462c0819:PsiDirectoryNode" />
               <item name="廖雪峰python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,7 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,8 +275,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.函数式编程">
-    <configuration name="输入输出" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.白平衡">
+    <configuration name="白平衡" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,12 +284,100 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/廖雪峰python/输入和输出" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/TestCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/廖雪峰python/输入和输出/输入输出.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/TestCode/白平衡.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="白平衡2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/TestCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/TestCode/白平衡2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="白平衡3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/TestCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/TestCode/白平衡3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="白平衡4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/TestCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/TestCode/白平衡4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RGB_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/TestCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/TestCode/RGB_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,28 +400,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PictureTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/TestCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/TestCode/PictureTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -682,34 +738,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hm_06_update方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/America_python/飞机大战" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/America_python/飞机大战/hm_06_update方法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.函数式编程" />
-        <item itemvalue="Python.PictureTest" />
-        <item itemvalue="Python.hm_06_update方法" />
-        <item itemvalue="Python.输入输出" />
+        <item itemvalue="Python.白平衡" />
+        <item itemvalue="Python.白平衡4" />
+        <item itemvalue="Python.白平衡3" />
+        <item itemvalue="Python.白平衡2" />
+        <item itemvalue="Python.RGB_test" />
       </list>
     </recent_temporary>
   </component>
@@ -787,11 +822,13 @@
       <workItem from="1564060400644" duration="1841000" />
       <workItem from="1564224143808" duration="4201000" />
       <workItem from="1564302639183" duration="7686000" />
+      <workItem from="1564380948234" duration="5279000" />
+      <workItem from="1564393396457" duration="7920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="478118000" />
+    <option name="totallyTimeSpent" value="491317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,14 +840,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="13" width="1088" height="854" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.065048546" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08512064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.37290502" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29083094" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.37257618" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28947368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38826814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -819,12 +856,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.33236995" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49847096" visible="true" weight="0.43266475" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.5235457" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49847096" weight="0.28285715" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.52217454" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.47520107" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -1238,82 +1275,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alex_python/day10/gevent_socket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="e#151#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alex_python/day10/ImportantMessage">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alex_python/day10/select_socket_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alex_python/day10/socket_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alex_python/day10/mutib_conn_socket_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alex_python/day10/selectors模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#150#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../envs/first-env/Lib/site-packages/pika/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="545" column="8" selection-start-line="545" selection-start-column="8" selection-end-line="545" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alex_python/day11/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alex_python/day11/producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alex_python/day11/本节重点">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alex_python/day12/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1496,9 +1457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/America_python/TestCode/images/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../envs/first-env/Lib/base64.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
@@ -1554,16 +1512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/America_python/TestCode/PictureTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="49" />
-          <folding>
-            <element signature="n#!!doc" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/第二章列表和元组/message">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1592,20 +1540,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/函数式编程.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        <state>
           <folding>
             <element signature="n#!!doc" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/America_python/廖雪峰python/函数式编程/Message">
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/PictureTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        <state>
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/images/23.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/images/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/images/007.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/images/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/images/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/images/wo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/白平衡.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#141#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/白平衡2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <folding>
+            <element signature="e#166#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/白平衡4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#142#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/白平衡3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#142#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/America_python/TestCode/RGB_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#146#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
