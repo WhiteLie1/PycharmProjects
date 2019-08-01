@@ -48,9 +48,11 @@ def detection(img):
     print('偏色值:%f' % k)
     return
 
-
-img = cv2.imread('images/4.jpg')
-img_gray = cv2.imread('images/4.jpg', 2)
+res = cv2.imread(r'images\he.jpg')
+img=cv2.resize(res,(300,480),interpolation=cv2.INTER_CUBIC)
+img_gray = cv2.imread('img', 2)
+#img = cv2.imread('images/4.jpg')
+#img_gray = cv2.imread('images/4.jpg', 2)
 b, g, r = cv2.split(img)
 print(img.shape)
 m, n = b.shape

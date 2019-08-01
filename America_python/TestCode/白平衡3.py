@@ -8,8 +8,9 @@
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
-
-img = cv2.imread('images/4.jpg')
+res = cv2.imread(r'images\he.jpg')
+img=cv2.resize(res,(500,361),interpolation=cv2.INTER_CUBIC)
+#img = cv2.imread('images/4.jpg')
 b, g, r = cv2.split(img)
 cv2.imshow('yuantu', img)
 # detection(img)

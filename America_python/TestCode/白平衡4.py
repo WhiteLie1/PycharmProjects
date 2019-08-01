@@ -10,7 +10,9 @@ import cv2
 # import numpy as np
 
 # 读取图像
-img = cv.imread(r'images\4.jpg')
+res = cv.imread(r'images\4.jpg')
+img=cv2.resize(res,(300,480),interpolation=cv2.INTER_CUBIC)
+
 r, g, b = cv.split(img)
 r_avg = cv.mean(r)[0]
 g_avg = cv.mean(g)[0]

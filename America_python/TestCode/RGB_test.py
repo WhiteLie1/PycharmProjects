@@ -13,8 +13,8 @@ from matplotlib import pyplot as plt
 
 print('Pixel Values Access')
 
-imgFile = (r'C:\Users\cx\makeups\www\static\upload\o6zAJsw4mss6ZGUTYVN2VggCqwuQ.k6vlfHgeZey3bd355ac97779b6651286b218b2b88408.jpg')
-imgFile='images/4.jpg'
+#imgFile = (r'C:\Users\cx\makeups\www\static\upload\o6zAJsw4mss6ZGUTYVN2VggCqwuQ.k6vlfHgeZey3bd355ac97779b6651286b218b2b88408.jpg')
+imgFile='images/1.jpg'
 # 加载原始图像
 img = cv2.imread(imgFile)
 
