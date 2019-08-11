@@ -101,6 +101,34 @@ PythonµÄfunctoolsÄ£¿éÌá¹©ÁËºÜ¶àÓÐÓÃµÄ¹¦ÄÜ£¬ÆäÖÐÒ»¸ö¾ÍÊÇÆ«º¯Êý£¨Partial function£
 >>> int('12345', base=8)
 5349
 
+¼ÙÉèÒª×ª»»´óÁ¿µÄ¶þ½øÖÆ×Ö·û´®£¬Ã¿´Î¶¼´«Èëint(x, base=2)·Ç³£Âé·³£¬ÓÚÊÇ£¬ÎÒÃÇÏëµ½£¬¿ÉÒÔ¶¨ÒåÒ»¸öint2()µÄº¯Êý£¬Ä¬ÈÏ°Ñbase=2´«½øÈ¥£º
+>>> def int2(x,base=2):
+...     return int(x,base)
+...
+>>> int2('1000000')
+64
+
+functools.partial¾ÍÊÇ°ïÖúÎÒÃÇ´´½¨Ò»¸öÆ«º¯ÊýµÄ£¬²»ÐèÒªÎÒÃÇ×Ô¼º¶¨Òåint2()£¬¿ÉÒÔÖ±½ÓÊ¹ÓÃÏÂÃæµÄ´úÂë´´½¨Ò»¸öÐÂµÄº¯Êýint2£º
+>>> import functools
+>>> int2 = functools.partial(int,base=2)
+>>> int2('1000000')
+64
+
+¼òµ¥×Ü½áfunctools.partialµÄ×÷ÓÃ¾ÍÊÇ£¬°ÑÒ»¸öº¯ÊýµÄÄ³Ð©²ÎÊý¸ø¹Ì¶¨×¡£¨Ò²¾ÍÊÇÉèÖÃÄ¬ÈÏÖµ£©£¬·µ»ØÒ»¸öÐÂµÄº¯Êý£¬µ÷ÓÃÕâ¸öÐÂº¯Êý»á¸ü¼òµ¥¡£
+ÉÏÃæµÄº¯Êýint2,½ö½öÊÇ°Ñbase²ÎÊýÖØÐÂÉè¶¨Ä¬ÈÏÖµÎª2£¬µ«ÊÇÒ²¿ÉÒÔÔÚº¯Êýµ÷ÓÃµÄÊ±ºò´«ÈëÆäËûÖµ
+
+×îºó£¬ÔÚ´´½¨Æ«º¯ÊýµÄÊ±ºò£¬Êµ¼ÊÉÏ¿ÉÒÔ½ÓÊÕº¯Êý¶ÔÏó¡¢*argsºÍ**kwÕâÈý¸ö²ÎÊý
+int2 = functools.partial(int,base=2)
+Êµ¼ÊÉÏÊÇ¹Ì¶¨ÁËint()º¯ÊýµÄ¹Ø¼ü×Ö²ÎÊýbase,Ò²¾ÍÊÇ int2('100000')
+Ïàµ±ÓÚ£ºkw = {'base':2}
+int ('10010',**kw)
+
+Ð¡½á£º
+µ±º¯ÊýµÄ²ÎÊý¸öÊýÌ«¶à£¬ÐèÒª¼ò»¯Ê±£¬Ê¹ÓÃfunctools.partial¿ÉÒÔ´´½¨Ò»¸öÐÂµÄº¯Êý£¬Õâ¸öÐÂº¯Êý¿ÉÒÔ¹Ì¶¨×¡Ô­º¯ÊýµÄ²¿·Ö²ÎÊý£¬´Ó¶øÔÚµ÷ÓÃÊ±¸ü¼òµ¥¡£
+
+ËùÒÔ£¬¼òµ¥×Ü½áfunctools.partialµÄ×÷ÓÃ¾ÍÊÇ£¬°ÑÒ»¸öº¯ÊýµÄÄ³Ð©²ÎÊý¸ø¹Ì¶¨×¡£¨Ò²¾ÍÊÇÉèÖÃÄ¬ÈÏÖµ£©£¬·µ»ØÒ»¸öÐÂµÄº¯Êý£¬µ÷ÓÃÕâ¸öÐÂº¯Êý»á¸ü¼òµ¥¡£
+
+
 
 
 

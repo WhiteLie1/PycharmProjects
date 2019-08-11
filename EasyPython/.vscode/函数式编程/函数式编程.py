@@ -88,3 +88,7 @@ def log(text):
     return decorator
 #import functools是导入functools模块。模块的概念稍候讲解。现在，只需记住在定义wrapper()的前面加##上@functools.wraps(func)即可
 '''
+a = [1,2]
+b = [3,4]
+c = a+b
+print(c)
