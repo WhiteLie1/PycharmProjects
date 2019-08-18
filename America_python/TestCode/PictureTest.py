@@ -11,7 +11,7 @@ import base64
 url = 'https://api.yimei.ai/v2/api/face/analysis/131071'
 client_id = "a2dadd45a7a8dc64";
 client_secret = "19cece3586122e52a126bab0d9800c1b";
-f = open('D:\Maindocuments\Mainsoftware\PycharmProjects\America_python\TestCode\images/test.jpg','rb')
+f = open('D:\Maindocuments\Mainsoftware\PycharmProjects\America_python\TestCode\images/test.txt.jpg','rb')
 bodys = {}
 bodys['image'] = f
 print(f)
@@ -39,7 +39,7 @@ authorization = 'Basic ' + str(base64.b64encode((client_id \
 print(authorization)
 
 headers = {'Authorization': authorization}
-filename = 'D:\Maindocuments\Mainsoftware\PycharmProjects\America_python\TestCode\images/test.jpg'
+filename = 'D:\Maindocuments\Mainsoftware\PycharmProjects\America_python\TestCode\images/test.txt.jpg'
 files = {'image':(filename, open(filename,'rb'), "multipart/form-data")}
 response = requests.post(url, headers=headers, files=files);
 

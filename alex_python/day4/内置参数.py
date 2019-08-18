@@ -64,11 +64,11 @@ print(res) #45
 #print(globals()) #这整个文件的值全部返回了
 # 哈希表
 
-def test():
+def test.txt():
     local_var = 333
     print(locals())
     print(globals())
-test()
+test.txt()
 print(globals())
 print(globals().get('local_var'))
 

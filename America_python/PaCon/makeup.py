@@ -59,7 +59,7 @@ class MakeupSpider(scrapy.Spider):
                 makeupitem["brand"] = content
             if name == '分类：':
                 makeupitem["category"] = content
-        f = open("test.json", 'a+', encoding='utf-8')
+        f = open("test.txt.json", 'a+', encoding='utf-8')
         ret = json.dumps(makeupitem)
         ret = ret + ',\n'
         f.write(ret)

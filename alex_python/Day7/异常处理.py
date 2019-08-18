@@ -68,7 +68,7 @@ data  ={}
 try:
     # names[3]
     # data['name']
-    open('test.txt')
+    open('test.txt.txt')
     a = 1
     print(a) #没有错误的时候走的路
 except Exception as e :

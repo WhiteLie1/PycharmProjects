@@ -6,11 +6,11 @@
 # @File : 模块.py
 # @Software: PyCharm
 '''
-'a test module'
+'a test.txt module'
 __author_ = "chenxin"
 import sys
 
-def test():
+def test.txt():
     args = sys.argv
     if len(args)==1:
         print("Hello,World!")
@@ -20,7 +20,7 @@ def test():
         print('Too many arguments!')
 
 if __name__ == '__main__':
-    test()
+    test.txt()
 
 '''
 

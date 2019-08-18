@@ -10,7 +10,7 @@ info = {
     'name':'chenxin',
     'age':22
 }
-f = open('test.text','w')
+f = open('test.txt.text','w')
 f.write(str(info))
 f.close()
 
@@ -23,7 +23,7 @@ info = {
     'age':22,
     'func':sayhi
 }
-f = open('test.text','w')
+f = open('test.txt.text','w')
 #print(json.dumps(info)) # {"name": "chenxin", "age": 22}
 f.write(json.dumps(info))
 
@@ -37,7 +37,7 @@ info = {
     'age':22,
     'func':sayhi
 }
-f = open('test.text','wb')
+f = open('test.txt.text','wb')
 #print(json.dumps(info)) # {"name": "chenxin", "age": 22}
 f.write(pickle.dumps(info))
 

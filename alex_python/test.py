@@ -3,7 +3,7 @@
 # @Time : 2019/6/16 19:45
 # @Author : chenxin
 # @Site : 
-# @File : test.py
+# @File : test.txt.py
 # @Software: PyCharm
 import pygame,random,time,turtle,multiprocessing
 

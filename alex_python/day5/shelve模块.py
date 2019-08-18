@@ -19,8 +19,8 @@ class Test(object):
 t = Test(123)
 t2 = Test(123334)
 
-name = ["alex", "rain", "test"]
-d["test"] = name  # 持久化列表
+name = ["alex", "rain", "test.txt"]
+d["test.txt"] = name  # 持久化列表
 d["t1"] = t  # 持久化类
 d["t2"] = t2
 
@@ -34,8 +34,8 @@ d = shelve.open('shelve_test')  # 打开一个文件
 
 info = {'age':22,"job":"it"}
 
-name = ["alex", "rain", "test"]
-#d["test"] = name  # 持久化列表
+name = ["alex", "rain", "test.txt"]
+#d["test.txt"] = name  # 持久化列表
 d["name"] = name  # 持久化类
 d["info"] = info #持久dict
 d['date'] = datetime.datetime.now()

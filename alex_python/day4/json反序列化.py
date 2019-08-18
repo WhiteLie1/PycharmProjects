@@ -7,13 +7,13 @@
 # @Software: PyCharm
 '''
 import json
-f = open('test.text','r')
+f = open('test.txt.text','r')
 data = eval(f.read())
 f.close()
 print(data['age'])
 
 import json
-f = open('test.text','r')
+f = open('test.txt.text','r')
 
 data = json.loads(f.read())
 
@@ -28,7 +28,7 @@ info = {
     'age':22,
     'func':sayhi
 }
-f = open('test.text','rb')
+f = open('test.txt.text','rb')
 
 data = pickle.loads(f.read())
 

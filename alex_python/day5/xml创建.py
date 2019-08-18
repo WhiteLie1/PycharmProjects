@@ -23,7 +23,7 @@ age = ET.SubElement(personinfo2,'age')
 age.text = '19'
 
 et = ET.ElementTree(new_xml)  # 生成文档对象
-et.write("test.xml", encoding="utf-8", xml_declaration=True)
+et.write("test.txt.xml", encoding="utf-8", xml_declaration=True)
 
 ET.dump(new_xml)  # 打印生成的格式
 

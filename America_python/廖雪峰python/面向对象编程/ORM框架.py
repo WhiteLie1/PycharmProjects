@@ -72,7 +72,7 @@ class User(Model):
     email = StringField('email')
     password = StringField('password')
 #创建一个实例
-u = User(id=12345, name='Michael', email='test@orm.org', password='my-pwd')#保存到数据库
+u = User(id=12345, name='Michael', email='test.txt@orm.org', password='my-pwd')#保存到数据库
 u.save()
 '''
 
@@ -143,7 +143,7 @@ class User(Model):
     password = StringField('password')
 
 # 创建一个实例：
-u = User(id=12345, name='Michael', email='test@orm.org', password='my-pwd')
+u = User(id=12345, name='Michael', email='test.txt@orm.org', password='my-pwd')
 # 保存到数据库：
 u.save()
 

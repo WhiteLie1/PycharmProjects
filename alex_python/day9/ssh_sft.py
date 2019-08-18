@@ -23,8 +23,8 @@ transport = paramiko.Transport(("hostname",22))
 transport.connect(username="alex",password = "123")
 
 sftp = paramiko.SFTPClient.from_transport(transport)
-#将location.py上传到服务器 /tmp/test.py
-sftp.put('/tmp/location.py','/tmp/test.py')
+#将location.py上传到服务器 /tmp/test.txt.py
+sftp.put('/tmp/location.py','/tmp/test.txt.py')
 #将remove_path下载到本地的local_path
 sftp.get('remove_path','local_path')
 transport.close()
