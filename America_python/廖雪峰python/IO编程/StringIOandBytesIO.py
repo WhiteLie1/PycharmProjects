@@ -20,6 +20,8 @@ while True:
     s = f.readline()
     if s == '':
 
+        #多岁的发疯是
+
 
 
 
