@@ -39,7 +39,7 @@ exports.model = {
     encoding: 'utf8',
     prefix: "",
     host: '127.0.0.1',
-    port: '27021',
+    port: '27017', // 端口一定不能错啊！
     user: '',
     password: '',
     dateStrings: true
