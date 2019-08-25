@@ -2,12 +2,18 @@
     width: 100%;
     text-align: center;
     line-height: 40px;
-    padding-top: 150px;
+    padding-top: 50rpx;
     color: #fff;
     font-weight: 600;
     height: 100%;
 }
-
+.container{
+    padding:0rpx;
+}
 page {
     background-color: #27AE60;
+}
+.image-scan{
+    width: 300rpx;
+    height: 200rpx;
 }

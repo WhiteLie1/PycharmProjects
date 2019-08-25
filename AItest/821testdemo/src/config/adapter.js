@@ -35,10 +35,10 @@ exports.model = {
     logger: msg => think.logger.info(msg)
   },
   mongo: {
-    database: 'school',
+    database: 'test',
     encoding: 'utf8',
     prefix: "",
-    host: '127.0.0.1',
+    host: '101.132.125.136',
     port: '27017', // 端口一定不能错啊！
     user: '',
     password: '',

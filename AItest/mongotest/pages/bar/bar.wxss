@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: baseline;
 }
-.ec-canvas{
+.ec-canvas {
     width:300px;
     height: 80%;
 }

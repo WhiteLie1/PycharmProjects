@@ -1,0 +1,20 @@
+{
+  "name": "821testdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "development.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "think-mongo": "^1.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node development.js"
+
+  },
+  "author": "",
+  "license": "ISC"
+}

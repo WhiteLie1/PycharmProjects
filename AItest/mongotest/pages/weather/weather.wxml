@@ -1,3 +1,14 @@
-<view class="weather"> 
-  <text>{{weatherData}}</text> 
+<view class="container">
+  <view class="weather" wx:if="{{weatherData}}">
+    <view>城市：{{weatherData.currentCity}}</view>
+    <view>PM2.5:{{weatherData.pm25}}</view>
+    <view>日期：{{weatherData.date}}</view>
+    <view>温度：{{weatherData.temperature}}</view>
+    <view>天气：{{weatherData.weatherDesc}}</view>
+    <view>风力：{{weatherData.wind}}</view>
+  </view>
+  <view bindtap="scanCode"style='color: #fff;font-weight: 600;padding-top:35rpx'>请扫码获取身份信息、时间和位置信息</view>
+  <view class='First'>
+    <image style=" padding-top:20rpx" src='../../images/message.png' class='image-scan'></image>
+  </view>
 </view>

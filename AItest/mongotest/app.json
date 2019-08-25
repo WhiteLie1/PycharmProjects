@@ -1,7 +1,9 @@
 {
   "pages": [
+    
     "pages/weather/weather",
     "pages/bar/bar",
+    "pages/test/test",
     "pages/index/index",
     "pages/logs/logs"
     
@@ -19,6 +21,12 @@
           "text": "天气",
           "iconPath": "images/weather.png",
           "selectedIconPath": "images/weather.png"
+        },
+        {
+          "pagePath": "pages/test/test",
+          "text": "二维码",
+          "iconPath": "images/location.png",
+          "selectedIconPath": "images/location.png"
         },
         {
           "pagePath": "pages/bar/bar",
