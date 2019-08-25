@@ -13,7 +13,8 @@ from flask_pymongo import PyMongo
 
 app = Flask(__name__)
 #数据库的地址
-app.config['MONGO_URI'] = 'mongodb://127.0.0.1:27017/school'
+#app.config['MONGO_URI'] = 'mongodb://127.0.0.1:27017/school'
+app.config['MONGO_URI'] = 'mongodb://101.132.125.136:27017/test'
 
 mongo = PyMongo(app)
 
@@ -24,7 +25,6 @@ def index():
     one = students.next()
     #print(students.next())
     return render_template('index.html',ones=one) #ones是用来显示在前端页面的
-
 
 # # #给一个路由和html文件相连接.路由相当于是一个指示牌
 # @app.route('/add/')

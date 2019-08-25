@@ -37,5 +37,5 @@ config.development.js
 adapter.development.js
 .json
 .wt
-821testdemo\db
+
 db
