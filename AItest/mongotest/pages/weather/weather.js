@@ -1,3 +1,4 @@
+const app  = getApp()
 // 引用百度地图微信小程序JSAPI模块 
 var bmap = require('../../libs/bmap-wx.js');
 //获取系统时间
@@ -67,8 +68,24 @@ Page({
       success(res) {
         that.getPreciseLocation().then((res) => {
           that.setData({preciseLocation: res.originalData.result})
+          console.log('这个啥？')
           console.log(that.data.preciseLocation)
         })
+        //获取当前时间 
+        var time = util.formatTime(new Date())
+        that.setData({
+          time: time
+        })
+        console.log(res.data.preciseLocation)
+        console.log(time)
+        console.log(res) //这个是扫码后的所有信息
+        // //这里设置一个data数据来接收当前的扫码结果和地理位置信息
+        let data = {}
+        data["content"] = res.result //获取二维码的信息
+        data["timestamp"] = time
+        data["address"] = res.originalData
+        console.log('这是二维码所有的信息')
+        console.log(data)
         // var success = function (data) {
         //   console.log("这个是扫码后的位置的详情")
         //   console.log(data)
@@ -89,19 +106,7 @@ Page({
         // console.log(that.address)
         // // 发起regeocoding检索请求 
 
-        // //获取当前时间 
-        // var time = util.formatTime(new Date())
-        // that.setData({
-        //   time: time
-        // })
-        // //console.log(time)
-        // console.log(res)
-        // //这里设置一个data数据来接收当前的扫码结果和地理位置信息
-        let data = {}
-        data["content"] = res.result
-        data["timestamp"] = time
-        data["address"] = address
-        console.log(data)
+        
       }
     })
 
