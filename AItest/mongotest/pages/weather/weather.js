@@ -71,7 +71,7 @@ Page({
           console.log('这个啥？')
           console.log(that.data.preciseLocation)
         })
-        //获取当前时间 
+        //获取系统当前的时间 
         var time = util.formatTime(new Date())
         that.setData({
           time: time
