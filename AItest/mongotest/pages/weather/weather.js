@@ -1,4 +1,4 @@
-const app  = getApp()
+const app = getApp()
 // 引用百度地图微信小程序JSAPI模块 
 var bmap = require('../../libs/bmap-wx.js');
 //获取系统时间
@@ -12,7 +12,8 @@ Page({
     markers: [],
     latitude: '',
     longitude: '',
-    rgcData: {}
+    rgcData: {},
+    allresult:{} //二维码上的全部信息
   },
   //逆解析
   makertap: function (e) {
@@ -21,6 +22,22 @@ Page({
     that.showSearchInfo(wxMarkerData, id);
   },
   onLoad: function (options) {
+    var that = this
+    //一加载就发送当前天气信息到数据库里面去
+   /* wx.request({
+      method: 'POST',
+      url: 'http://127.0.0.1:8360/weather/add',
+      data: {
+        data: that.data.weatherData
+      },
+      success: (res) => {
+        console.log('这个是发送天气列表')
+        console.log(res.data)
+        that.setData({
+          weatherList: res.data
+        })
+      }
+    })*/
     //获取授权
     this.getLocation();
     var that = this;
@@ -42,50 +59,63 @@ Page({
       }
     });
   },
-  //发送信息到数据库里面去
-  sendData() {
-    wx.request({
-      method: 'POST',
-      url: 'http://127.0.0.1:8360/weather/add',
-      data: {
-        data: that.data.weatherData
-      },
-      success: (res) => {
-        console.log('这个是发送天气列表')
-        console.log(res.data)
-        that.setData({
-          weatherList: res.data
-        })
-      }
-    })
 
-  },
   //扫码事件的触发
-  scanCode: function () {
+  scanCode: function (options) {
+    console.log("这是扫码的options", options)
     var that = this;
     // 允许从相机和相册扫码
     wx.scanCode({
-      success(res) {
+      success(res) { //这个是一个链式的，一步扣一步的执行下去
+        console.log("扫码成功的信息", res)
         that.getPreciseLocation().then((res) => {
-          that.setData({preciseLocation: res.originalData.result})
-          console.log('这个啥？')
-          console.log(that.data.preciseLocation)
+          that.setData({ preciseLocation: res.originalData.result })
+          console.log("少吗返回的数据", that.data.preciseLocation)
+        }).then(() => {
+          //获取系统当前的时间 
+          var time = util.formatTime(new Date())
+          that.setData({
+            time: time
+          })
+          console.log("少吗外面返回的数据", that.data.preciseLocation)
+          //console.log(time)
+          //console.log(res) //这个是扫码后的所有信息
+          // //这里设置一个data数据来接收当前的扫码结果和地理位置信息
+          let allresult = {}
+          allresult["content"] = res.result //获取二维码的信息
+          allresult["timestamp"] = time
+          allresult["address"] = that.data.preciseLocation.formatted_address
+          allresult["weatherlist"] = that.data.weatherData
+          allresult["latitude"]= that.data.latitude
+          allresult["longitude"] = that.data.longitude
+          console.log('这是二维码所有的信息')
+          console.log(allresult)
+          that.setData({
+            allresult:allresult
+          })
+        }).then(() => {
+          //let allresult = data
+          console.log('这个是result',that.data.allresult)
+          //发送信息到数据库里面去
+          //sendData() {
+          wx.request({
+            method: 'POST',
+            url: 'http://127.0.0.1:8360/weather/add',
+            data: {
+              data: that.data.allresult
+            },
+            success: (res) => {
+              console.log('这个是发送天气列表')
+              console.log(res.data)
+              that.setData({
+                weatherList: res.data
+              })
+            }
+          })
+          // },
+
         })
-        //获取系统当前的时间 
-        var time = util.formatTime(new Date())
-        that.setData({
-          time: time
-        })
-        console.log(res.data.preciseLocation)
-        console.log(time)
-        console.log(res) //这个是扫码后的所有信息
-        // //这里设置一个data数据来接收当前的扫码结果和地理位置信息
-        let data = {}
-        data["content"] = res.result //获取二维码的信息
-        data["timestamp"] = time
-        data["address"] = res.originalData
-        console.log('这是二维码所有的信息')
-        console.log(data)
+
         // var success = function (data) {
         //   console.log("这个是扫码后的位置的详情")
         //   console.log(data)
@@ -106,7 +136,7 @@ Page({
         // console.log(that.address)
         // // 发起regeocoding检索请求 
 
-        
+
       }
     })
 
