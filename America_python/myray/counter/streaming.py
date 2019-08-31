@@ -5,7 +5,7 @@
 # @Site : 
 # @File : streaming.py
 # @Software: PyCharm
-
+'''
 #单词的计数实现
 # map reduce
 # 映射  求和
@@ -84,7 +84,7 @@ keys = [[chunk[0],chunk[-1]] for chunk in chunks]
 
 mappers = [Mapper.remote(stream) for]
 
-
+'''
 
 
 
