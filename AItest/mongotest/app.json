@@ -2,7 +2,7 @@
   "pages": [
     
     "pages/weather/weather",
-    
+    "pages/receive-address/receive-address",
    
     "pages/bar/bar",
     "pages/test/test",
@@ -27,6 +27,12 @@
         {
           "pagePath": "pages/test/test",
           "text": "二维码",
+          "iconPath": "images/location.png",
+          "selectedIconPath": "images/location.png"
+        },
+        {
+          "pagePath": "pages/receive-address/receive-address",
+          "text": "收货地址",
           "iconPath": "images/location.png",
           "selectedIconPath": "images/location.png"
         },
