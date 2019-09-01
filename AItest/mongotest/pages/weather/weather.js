@@ -166,5 +166,10 @@ Page({
       })
     })
     return promise
+  },
+  takephoto:function(e){
+    wx.navigateTo({
+      url:'/pages/takephoto/takephoto'
+    })
   }
 })

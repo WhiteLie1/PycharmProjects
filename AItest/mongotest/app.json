@@ -2,6 +2,8 @@
   "pages": [
     
     "pages/weather/weather",
+    
+   
     "pages/bar/bar",
     "pages/test/test",
     "pages/index/index",
@@ -28,6 +30,7 @@
           "iconPath": "images/location.png",
           "selectedIconPath": "images/location.png"
         },
+      
         {
           "pagePath": "pages/bar/bar",
           "text": "图表",

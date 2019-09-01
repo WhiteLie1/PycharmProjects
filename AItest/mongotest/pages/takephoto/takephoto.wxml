@@ -1,0 +1,17 @@
+<view class="container">
+  <camera device-position="front" flash="auto" binderror="error" style="width: 100%; height: 300px;"></camera>
+
+  <button type="primary" bindtap="takePhoto">拍照</button>
+  <view class="btn-area">
+    <button type="A" bindtap="chooseimage">选择相册</button>
+  </view>
+
+  <view class='preview-tips'>预览</view>
+  <image wx:if="{{tempFilePaths}}" mode="widthFix" src="{{tempFilePaths}}"></image>
+ 
+  <view class="btn-area">
+    <button type="primary" bindtap="startRecord">上传图片至服务器</button>
+  </view>
+
+
+</view>
