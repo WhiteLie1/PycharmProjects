@@ -1,6 +1,6 @@
 // pages/bar/bar.js
 const app = getApp()
-import * as echarts from '../echarts-for-weixin/ec-canvas/echarts.js'
+import * as echarts from '../ec-canvas/echarts.js'
 let chart = null;
 function initChart(canvas,width,height){
   chart = echarts.init(canvas,null,{

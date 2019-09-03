@@ -1,11 +1,12 @@
 {
   "pages": [
-    
+    "pages/temperature-line/temperature-line",
     "pages/weather/weather",
     "pages/receive-address/receive-address",
    
     "pages/bar/bar",
     "pages/test/test",
+    
     "pages/index/index",
     "pages/logs/logs"
     
@@ -31,8 +32,8 @@
           "selectedIconPath": "images/location.png"
         },
         {
-          "pagePath": "pages/receive-address/receive-address",
-          "text": "收货地址",
+          "pagePath": "pages/temperature-line/temperature-line",
+          "text": "温度图",
           "iconPath": "images/location.png",
           "selectedIconPath": "images/location.png"
         },

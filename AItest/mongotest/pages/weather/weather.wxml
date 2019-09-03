@@ -13,5 +13,6 @@
   </view>
 
   <view bindtap="takephoto"style='color: #red;font-weight: 600;padding-top:35rpx'>点击进行自动拍照</view>
+  <view bindtap="get_temperature"style='color: #red;font-weight: 600;padding-top:35rpx'>点击获取温度信息</view>
   
 </view>

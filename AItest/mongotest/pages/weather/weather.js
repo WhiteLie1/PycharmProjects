@@ -167,9 +167,25 @@ Page({
     })
     return promise
   },
-  takephoto:function(e){
+  takephoto:function(e){//拍照事件的产生
     wx.navigateTo({
       url:'/pages/takephoto/takephoto'
+    })
+  },
+  get_temperature:function(e){//获取数据库温度的接口
+    wx.request({
+      method: 'POST',
+      url: 'http://127.0.0.1:8360/weather/find',
+      data: {
+        //data: that.data.allresult
+      },
+      success: (res) => {
+        console.log('这个是发送天气列表')
+        console.log(res.data)
+        that.setData({
+          weatherList: res.data
+        })
+      }
     })
   }
 })
