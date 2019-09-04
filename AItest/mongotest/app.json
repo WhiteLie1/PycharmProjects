@@ -1,9 +1,12 @@
 {
   "pages": [
+    "pages/place-order/place-order",
+    "pages/transtest/transtest",
     "pages/temperature-line/temperature-line",
     "pages/weather/weather",
     "pages/receive-address/receive-address",
-   
+    
+    "pages/transport/detail/detail",
     "pages/bar/bar",
     "pages/test/test",
     
@@ -39,8 +42,8 @@
         },
       
         {
-          "pagePath": "pages/bar/bar",
-          "text": "图表",
+          "pagePath": "pages/place-order/place-order",
+          "text": "物流",
           "iconPath": "images/edit.png",
           "selectedIconPath": "images/edit.png"
         }

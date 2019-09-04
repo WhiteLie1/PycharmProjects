@@ -1,0 +1,8 @@
+<view class="container">
+    <view bindtap="get_code" style='color: #red;font-weight: 600;padding-top:35rpx;'>
+        点击获取code码
+    </view>
+    <view bindtap="place_order" style='color: #red;font-weight: 600;padding-top:35rpx;'>
+        点击进行下单
+    </view>
+</view>
