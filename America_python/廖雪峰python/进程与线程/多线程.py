@@ -49,6 +49,7 @@ print(balance) # 0
 #我们定义了一个共享变量balance，初始值为0，并且启动两个线程，先存后取，理论上结果应该为0，但是，由于线程的调度是由操作系统决定的，当t1、t2交替执行时，只要循环次数足够多，balance的结果就不一定是0了。
 '''
 
+'''
 import threading
 #如果我们要确保balance计算正确，就要给change_it()上一把锁，当某个线程开始执行change_it()时，我们说，该线程因为获得了锁，因此其他线程不能同时执行change_it()，只能等待，直到锁被释放后，获得该锁以后才能改。由于锁只有一个，无论多少线程，同一时刻最多只有一个线程持有该锁，所以，不会造成修改的冲突。创建一个锁就是通过threading.Lock()来实现
 balance = 0
@@ -76,6 +77,19 @@ t2.start()
 t1.join()
 t2.join()
 print(balance)
+'''
+
+# #python的死循环
+# import threading, multiprocessing
+#
+# def loop():
+#     x = 0
+#     while True:
+#         x = x ^ 1
+#
+# for i in range(multiprocessing.cpu_count()):
+#     t = threading.Thread(target=loop)
+#     t.start()
 
 
 
