@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/place-order/place-order",
+    "pages/place-order/all-order",
     "pages/transtest/transtest",
     "pages/temperature-line/temperature-line",
     "pages/weather/weather",
@@ -43,7 +44,7 @@
       
         {
           "pagePath": "pages/place-order/place-order",
-          "text": "物流",
+          "text": "商户界面",
           "iconPath": "images/edit.png",
           "selectedIconPath": "images/edit.png"
         }

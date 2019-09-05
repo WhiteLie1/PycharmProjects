@@ -1,0 +1,4 @@
+/* pages/place-order/all-order.wxss */
+.container{
+    padding-top: 5rpx;
+}
