@@ -1,3 +1,24 @@
-<view class = 'container'>
-    <view>这是所有订单页面</view>
+<view >这是全部订单界面</view>
+<view class='topExpress'>
+  <view wx:for='{{order_list}}'>
+   
+    <view class='topExpress-left'>
+      <image src='/images/kuaidi.png' style='width:60rpx;height:60rpx;border-radius:50%;'></image>
+    </view>
+    <view style="margin-left:50rpx"class='topExpress-right'>
+    
+      <view class='topExpress-right-top'>订单id：{{item._id}}</view>
+      <view class='topExpress-right-middle'>下单时间:{{item.order_create_time}}</view>
+      <!--wx:if 来判断当前的状态并进行显示-->
+      <view class='topExpress-right-top'>收货人：{{item.address.name}}</view>
+      <view class='topExpress-right-top'>手机号码：{{item.address.phone}}</view>
+      <view class='topExpress-right-top'>详细地址：{{item.address.preciseLocation}}</view>
+
+
+       
+      <view bindtap="click_order" data-index='{{index}}'style="text-align:center"> 点击进行下单</view>
+      
+    </view>
+    
+  </view>
 </view>

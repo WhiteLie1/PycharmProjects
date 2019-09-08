@@ -6,6 +6,7 @@
     "pages/temperature-line/temperature-line",
     "pages/weather/weather",
     "pages/receive-address/receive-address",
+    "pages/place-order/order-confirmation",
     
     "pages/transport/detail/detail",
     "pages/bar/bar",
