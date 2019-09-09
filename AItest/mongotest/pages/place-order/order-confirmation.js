@@ -7,7 +7,8 @@ Page({
    */
   data: {
     order: [],//订单
-    code: ''//秘钥
+    code: '',//秘钥
+    order_detail:''//订单详情
 
   },
    //获取用户信息
@@ -57,7 +58,7 @@ Page({
             "address": "XX路XX号XX大厦XX栋XX"
           },
           "receiver": {
-            "name": "王小蒙",
+            "name": that.data.address.name,
             "tel": "020-77777777",
             "mobile": "18610000000",
             "company": "公司名",
@@ -118,10 +119,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    let that = this
     console.log("这是啥",options.query)
     const eventChannel = this.getOpenerEventChannel()
     eventChannel.on('acceptDataFromOpenerPage', function(data) {
-      console.log('onload',data)
+      console.log('onloaddata',data)
+      that.setData({
+        order_detail:that.res.data
+      })
     })
 
   },

@@ -37,7 +37,7 @@ Page({
 
   },*/
   //获取用户信息
-  get_code: function () {
+  /*get_code: function () {
     var that = this;
     return new Promise(function (resolve, reject) {
       wx.request({
@@ -136,7 +136,7 @@ Page({
 
     })
    
-  },
+  },*/
 
 
   /**
