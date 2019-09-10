@@ -35,6 +35,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    order_list:[] //订单列表
+    order_list:[], //订单列表
+    serverPath: 'https://whatdoyoudo.club/v1'
   }
 })

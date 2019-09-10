@@ -8,7 +8,8 @@ Page({
   data: {
     order: [],//订单
     code: '',//秘钥
-    order_detail:''//订单详情
+    order_detail:'',//订单详情
+    order_D:''
 
   },
    //获取用户信息
@@ -58,22 +59,21 @@ Page({
             "address": "XX路XX号XX大厦XX栋XX"
           },
           "receiver": {
-            "name": that.data.address.name,
-            "tel": "020-77777777",
-            "mobile": "18610000000",
-            "company": "公司名",
-            "post_code": "654321",
+            "name": that.data.order_detail.data.address.name,
+            
+            "mobile": that.data.order_detail.data.phone,
+            
             "country": "中国",
-            "province": "广东省",
-            "city": "广州市",
-            "area": "天河区",
-            "address": "XX路XX号XX大厦XX栋XX"
+            "province": that.data.order_detail.data.address.province,
+            "city": that.data.order_detail.data.address.city,
+            "area":that.data.order_detail.data.address.area,
+            "address": that.data.order_detail.data.address.preciseLocation,
           },
           "shop": {
             "wxa_path": "/index/index?from=waybill&id=01234567890123456789",
-            "img_url": "https://mmbiz.qpic.cn/mmbiz_png/OiaFLUqewuIDNQnTiaCInIG8ibdosYHhQHPbXJUrqYSNIcBL60vo4LIjlcoNG1QPkeH5GWWEB41Ny895CokeAah8A/640",
-            "goods_name": "一千零一夜钻石包&爱马仕铂金包",
-            "goods_count": 2
+            "img_url": that.data.order_D.data.commodityList[0].thumbnail,
+            "goods_name": that.data.order_D.data.commodityList[0].name,
+            "goods_count": that.data.order_D.data.commodityList[0].amount
           },
           "cargo": {
             "count": 2,
@@ -120,14 +120,34 @@ Page({
    */
   onLoad: function (options) {
     let that = this
-    console.log("这是啥",options.query)
     const eventChannel = this.getOpenerEventChannel()
     eventChannel.on('acceptDataFromOpenerPage', function(data) {
       console.log('onloaddata',data)
       that.setData({
-        order_detail:that.res.data
+        order_detail:data
       })
-    })
+    });
+    //获取订单的详情
+  
+     wx.request({
+      url: app.globalData.serverPath + `/user/order/detail?id=${that.data.order_detail.data._id}`,
+       method: 'POST',
+       data: { 
+       
+         storage:'00ac2e64fe5c4afdd9fa25a341bcfa70337e795332a16a98c1cc7109dcb76c5f266827cc9f40a6ffe72429bf1572a907b487917f364edd8b235a697042e18942'
+        },
+       header: {
+         'content-type': 'application/json; charset=utf-8' // 默认值
+       },
+       success:  (res)=> {
+         console.log('订单详情',res.data)
+         this.setData({
+           order_D : res.data
+           
+         })
+       }
+     });
+
 
   },
 
