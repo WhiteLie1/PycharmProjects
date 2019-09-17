@@ -9,7 +9,8 @@ Page({
     order: [],//订单
     code: '',//秘钥
     order_detail:'',//订单详情
-    order_D:''
+    order_D:'',
+    comList:[] //列表
 
   },
    //获取用户信息
@@ -81,16 +82,7 @@ Page({
             "space_x": 30.5,
             "space_y": 20,
             "space_z": 20,
-            "detail_list": [
-              {
-                "name": "一千零一夜钻石包",
-                "count": 1
-              },
-              {
-                "name": "爱马仕铂金包",
-                "count": 1
-              }
-            ]
+            "detail_list": that.data.comList
           },
           "insured": {
             "use_insured": 1,
@@ -141,10 +133,19 @@ Page({
        },
        success:  (res)=> {
          console.log('订单详情',res.data)
+         let comList = []
+         for (var i in res.data.data.commodityList){
+           console.log("lo",res.data.data.commodityList[i])
+           var name=res.data.data.commodityList[i].name
+           var count=res.data.data.commodityList[i].amount
+           var item ={name:name,count:count}
+           comList.push(item)
+         }
          this.setData({
-           order_D : res.data
-           
+           order_D : res.data,
+           comList : comList
          })
+         console.log(that.data.comList)
        }
      });
 

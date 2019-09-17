@@ -71,13 +71,13 @@ gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 #直方图均衡
 
-new = np.interp(img, [img.min(), img.max()], [125, 175]).astype(np.uint8)
+new = np.interp(gray, [gray.min(), gray.max()], [125, 175]).astype(np.uint8)
 
 # equalize using CDF technique
 equalized = cv2.equalizeHist(new)
 
 fig, axes = plt.subplots(2,3,figsize=(12,6))
-for idx, an_apple in enumerate([img, new, equalized]):
+for idx, an_apple in enumerate([gray, new, equalized]):
     # vmin/vmax set enforced min/max gray scale values ... without them
     # 125 -> 0 ... 175 --> 255 and linearly interpolated
     print("min: {} max: {}".format(an_apple.min(), an_apple.max()))
