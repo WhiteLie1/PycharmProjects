@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc9b7541-2c10-4310-9d88-49583e86c54b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AItest/机器视觉处理/image/test5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AItest/机器视觉处理/jzt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AItest/机器视觉处理/lpls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AItest/机器视觉处理/tsbh.py" beforeDir="false" afterPath="$PROJECT_DIR$/AItest/机器视觉处理/tsbh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AItest/机器视觉处理/jzt.py" beforeDir="false" afterPath="$PROJECT_DIR$/AItest/机器视觉处理/jzt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +70,7 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$json.coverage" NAME="json反序列化 Coverage Results" MODIFIED="1551271943161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day4" />
     <SUITE FILE_PATH="coverage/PycharmProjects$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1554037141657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
     <SUITE FILE_PATH="coverage/PycharmProjects$getitem.coverage" NAME="getitem Coverage Results" MODIFIED="1552132855153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/Day7" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$jzt.coverage" NAME="jzt Coverage Results" MODIFIED="1568900180617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AItest/机器视觉处理" />
     <SUITE FILE_PATH="coverage/PycharmProjects$p_test.coverage" NAME="p_test Coverage Results" MODIFIED="1551359573796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day5/package_test" />
     <SUITE FILE_PATH="coverage/PycharmProjects$rlock.coverage" NAME="rlock Coverage Results" MODIFIED="1553610975112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day9" />
     <SUITE FILE_PATH="coverage/PycharmProjects$lock.coverage" NAME="lock进程锁 Coverage Results" MODIFIED="1553943990701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alex_python/day10" />
@@ -129,8 +126,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AItest/机器视觉处理/jzt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="642">
+              <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+              <folding>
+                <element signature="e#141#151#0" expanded="true" />
+                <element signature="e#277#458#0" />
+                <element signature="e#547#708#0" />
+                <element signature="e#737#853#0" />
+                <element signature="e#884#972#0" />
+                <element signature="e#1005#1168#0" />
+                <element signature="e#1192#1377#0" />
+                <element signature="e#1406#1926#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,9 +219,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="507" />
-    <option name="y" value="27" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="221" />
+    <option name="y" value="61" />
     <option name="width" value="1470" />
     <option name="height" value="1090" />
   </component>
@@ -265,13 +272,6 @@
               <item name="AItest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="机器视觉处理" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="PycharmProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="AItest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="机器视觉处理" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="image" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -312,29 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tsbh">
-    <configuration name="阈值处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AItest/机器视觉处理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Maindocuments\Mainsoftware\PycharmProjects\AItest\机器视觉处理\yzcl.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.jzt">
     <configuration name="协程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -797,6 +775,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="jzt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AItest/机器视觉处理" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AItest/机器视觉处理/jzt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="lpls" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -887,11 +887,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jzt" />
         <item itemvalue="Python.tsbh" />
         <item itemvalue="Python.lpls" />
         <item itemvalue="Python.masking" />
         <item itemvalue="Python.yzcl" />
-        <item itemvalue="Python.阈值处理" />
       </list>
     </recent_temporary>
   </component>
@@ -1014,7 +1014,7 @@
       <workItem from="1568703376078" duration="1261000" />
       <workItem from="1568793674581" duration="148000" />
       <workItem from="1568793991233" duration="832000" />
-      <workItem from="1568884505121" duration="3721000" />
+      <workItem from="1568884505121" duration="4549000" />
     </task>
     <servers />
   </component>
@@ -1024,7 +1024,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="643225000" />
+    <option name="totallyTimeSpent" value="644053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1036,15 +1036,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="406" y="22" width="1176" height="872" extended-state="1" />
-    <editor active="true" />
+    <frame x="177" y="49" width="1176" height="872" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8109162" weight="0.15921289" />
       <window_info id="Structure" order="1" sideWeight="0.50138503" side_tool="true" weight="0.14075068" />
       <window_info id="Favorites" order="2" sideWeight="0.18908381" side_tool="true" weight="0.10991957" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3715084" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34078214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34078214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38781163" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1058,7 +1057,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="540" y="186" width="962" height="704" id="SciView" order="3" weight="0.44906166" />
+      <window_info anchor="right" x="540" y="186" width="962" height="704" id="SciView" order="3" weight="0.4483914" />
       <window_info anchor="right" id="Database" order="4" weight="0.48422092" />
     </layout>
   </component>
@@ -1800,17 +1799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AItest/机器视觉处理/lpls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="168" column="21" lean-forward="true" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#2644#2654#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AItest/机器视觉处理/end.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1827,10 +1815,31 @@
     <entry file="file://$PROJECT_DIR$/AItest/机器视觉处理/image/test5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/AItest/机器视觉处理/lpls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="138" column="14" lean-forward="true" selection-start-line="85" selection-end-line="138" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#2630#2640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AItest/机器视觉处理/jzt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="642">
+          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+          <folding>
+            <element signature="e#141#151#0" expanded="true" />
+            <element signature="e#277#458#0" />
+            <element signature="e#547#708#0" />
+            <element signature="e#737#853#0" />
+            <element signature="e#884#972#0" />
+            <element signature="e#1005#1168#0" />
+            <element signature="e#1192#1377#0" />
+            <element signature="e#1406#1926#0" />
+          </folding>
         </state>
       </provider>
     </entry>
